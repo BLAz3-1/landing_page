@@ -1,10 +1,14 @@
+* {
+  box-sizing:border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   margin:0;
 }
 
 .header {
-  background-color:#1F2937;;
+  background-color:#1F2937;
 }
 
 .container {
@@ -17,8 +21,8 @@ body {
 }
 
 .header-logo {
-  font-size:28px;
-  color:white;
+  font-size:24px;
+  color:#F9FAF8;
   font-weight:bold;
 }
 
@@ -34,4 +38,51 @@ body {
   text-decoration:none;
   color:rgb(205, 199, 199);
   font-size:18px;
+}
+
+.hero {
+  background-color:#1F2937;
+  height:500px;
+}
+
+.hero .container {
+  align-items:center;
+  height:100%;
+}
+
+.first-child {
+  flex-basis: 450px;
+}
+
+.first-child .hero-main-text{
+  font-size:48px;
+  color:#F9FAF8;
+  font-weight:900;
+}
+
+.first-child .hero-secondary-text {
+  font-size:18px;
+  color:#E5E7EB;
+  margin-bottom:10px;
+}
+
+.first-child .sign-up {
+  background-color:#3882F6;
+  color:white;
+  padding:10px 35px;
+  border:none;
+  font-size:17px;
+  font-weight:bold;
+  border-radius:10px;
+}
+
+.second-child .hero-image-container {
+  width:600px;
+  border:1px solid black;
+  height:250px;
+  background-color:rgb(112, 118, 128);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
 }
