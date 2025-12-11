@@ -86,3 +86,41 @@ body {
   align-items:center;
   color:white;
 }
+
+.information-text {
+  font-size:36px;
+  color:#1F2937;
+  font-weight:900;
+  text-align:center;
+  margin-top:40px;
+  margin-bottom:60px;
+}
+
+.information-container {
+  display:flex;
+  gap:56px;
+  justify-content:center;
+}
+
+.information-container .box-container {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:200px;
+}
+
+.information-container .box {
+  border:4px solid rgb(0, 136, 255);
+  width:100%;
+  height:190px;
+  border-radius:20px;
+  margin-bottom:10px;
+}
+
+.information-container .box-text {
+  text-align:left;
+  text-align-last:center;
+  width:90%;
+  font-size:20px;
+  color:gray;
+}
